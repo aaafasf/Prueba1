@@ -1,5 +1,6 @@
-function sumar(a, b) {
-    return a + b;
+function sumar(a,b) {
+    return a+b;
 }
 
-module.exports = sumar;
+console.log("Resultado final:",sumar(2,3));
+module.exports = sumar; 
